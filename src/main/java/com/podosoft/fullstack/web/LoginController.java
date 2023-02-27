@@ -11,7 +11,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://master.d12kuolwha0gii.amplifyapp.com/")
+@CrossOrigin(origins = "*")
 public class LoginController {
     @Autowired
     private JwtService jwtService;
