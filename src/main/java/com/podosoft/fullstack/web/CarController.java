@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin
 @RestController
+@CrossOrigin(origins = "https://master.d12kuolwha0gii.amplifyapp.com/")
 public class CarController {
 
     @Autowired
